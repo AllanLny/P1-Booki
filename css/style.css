@@ -255,16 +255,19 @@ aside{
 
 .popular {
   width: 96%;
-  margin-bottom: 15px;
+  margin-bottom: 60px;
+  margin-top: -30px;
 }
 .popular a {
   display: flex;
+  
 }
 .popular img {
   width: 40%;
   border-radius: 20px 0 0 20px;
   height: 150px;
   object-fit: cover;
+
 }
 .popular-card {
   flex-direction: column;
