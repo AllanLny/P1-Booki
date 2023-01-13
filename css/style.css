@@ -1,0 +1,420 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: auto;
+}
+p,
+li,
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.show-more,
+.filters,
+#title-section {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+h2,
+.title {
+  margin-left: 12px;
+}
+h4 {
+  font-weight: 500;
+}
+
+/* 
+ Header
+*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+  }
+  nav a {
+    padding: 10px 20px;
+  }
+  .LogoBooki {
+    height: 60px;
+    padding: 10px 0 30px 40px;
+  }
+  header nav ul li {
+  margin: 0px 20px 0px 20px;
+}
+/* 
+ Nav
+*/
+ header ul {
+  display: flex;
+  list-style: none;
+  color: #0065fc;
+  padding-bottom: 22px;
+}
+nav a:hover{ 
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+  padding-top: 40px;
+  color: #0065fc;
+  width: 150px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+/* 
+ Search
+*/
+h1{
+  font-size: 22px;
+}
+h2{
+  font-size: 19px;
+  font-weight:400;
+}
+.search {
+font-size: 22px;
+margin-left: 40px;
+line-height: 15px;
+}
+input {
+  width: 286px;
+  height: 49px;
+  border-width: 1px 0 1px 0;
+  border-color: #f2f2f2;
+  border-style: solid;
+  padding: 12px;
+  margin-right: -20px;
+  position: relative;
+  z-index: 1;
+}
+input::placeholder{
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px; 
+}
+input:hover{
+  background: #deebff ;
+}
+button{
+  font-family: "Raleway", sans-serif;
+  height: 49px;
+  width: 132px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  background: #0065fc;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  z-index: 2;
+  padding: 10px;
+}
+.fas.fa-map-marker-alt{
+  background: #f2f2f2;
+  height: 49px;
+  width: 50px;
+  text-align: center;
+  padding:10px;
+  margin-right: -5px;
+  border-radius: 10px 0 0 10px;
+}
+/* 
+ Filtres
+*/
+h3{
+  font-size: 18px;
+}
+.FilterBar{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 5px;
+  gap: 30px;
+
+}
+.filtersFond{
+  display: flex ;
+  align-items: center;
+  padding: 4px 25px;
+  border: 2px solid #D9D9D9;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.filtersFond:hover{
+  background: #DEEBFF;
+}
+.filters-text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  white-space: nowrap;
+  padding: 10px;
+}
+.Filterlogo{
+  color: #0065fc;
+}
+
+/* 
+ Infobar
+*/
+.Infobar{
+  display: flex;
+  align-items: center;
+  margin: 20px 5px;
+  gap: 16px;
+  }
+
+.InfoLogo{
+  width: 24px;
+  height: 24px;
+  border: 2px solid #D9D9D9;
+  border-radius: 20px;
+}
+i.fas.fa-info{
+  color: #0065fc;
+  padding-left: 7px;
+  padding-top: 9px;
+}
+/* 
+ Hebergement
+*/
+main{
+  display: flex;
+  flex-direction: column;
+  padding: 0 3%;
+}
+section.content{
+  display: flex;
+  flex-direction: row;
+}
+#Hebergement {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  margin-right:30px;
+}
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article{
+  width: 30%;
+  border: 4px solid #ffffff;
+  border-radius: 20px;
+  line-height: 10px;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+article h3, p {
+  font-size: 16px;
+  margin-left: 12px;
+  line-height: 5px;
+}
+article img{
+  width: 100%;
+  height: 126px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.show-more {
+  margin: 40px 0 10px 20px;
+}
+.show-more a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration: none;
+  color: #0065fc;
+}
+.fas.fa-star.grey {
+  color: #dcdcdc;
+}
+.stars {
+  margin: 15px;
+  color: #0065fc;
+}
+/* 
+ Sponso
+*/
+aside{
+  flex: 40%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.popular {
+  width: 96%;
+  margin-bottom: 15px;
+}
+.popular a {
+  display: flex;
+}
+.popular img {
+  width: 40%;
+  border-radius: 20px 0 0 20px;
+  height: 150px;
+  object-fit: cover;
+}
+.popular-card {
+  flex-direction: column;
+  height: 140px;
+  width: 200px;
+  margin-left: 10px;
+  position: relative;
+}
+.popular-title {
+  line-height: 16px;
+}
+#title-popular {
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+.popular-text {
+  margin-bottom: 5px;
+}
+.stars-popular {
+  padding-left: 15px;
+  position: absolute;
+  bottom: 0;
+  color: #0065fc;
+}
+.popular .stars {
+  padding-top: 30px;
+}
+.fa-chart-line {
+  margin-right: 22px;
+  color: #0065fc;
+}
+#title-popular {
+  display: flex;
+  justify-content: space-between;
+}
+h6{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+p6{
+  font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+}
+/* 
+ Activité
+*/
+#container-activity{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  align-content: stretch;
+}
+.block-activity{
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+}
+.activity{
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px #c0c0c0;
+}
+#title-section {
+  margin-top: 5%;
+}
+.activity-img {
+  height: 370px;
+}
+.name-activity {
+  padding: 0 0px 5px 5px;
+}
+.name-activity h3 {
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+/* 
+ Footer
+*/
+
+footer{
+  width: 95%;
+  margin-left: 35px;
+  display: flex;
+  background: #f2f2f2;
+}
+footer ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+footer li {
+  margin-bottom: 5px;
+}
+
+.col_footer {
+width: 33%;
+padding: 3%;
+}
+h7{
+font-weight: 700;
+font-size: 18px;
+margin-left: 43px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+  .filters-text {
+  font-size: 17px;
+  line-height: 20px;
+}
+.FilterBar{ 
+  gap: 15px;
+}
+h3{
+  font-size: 18px;
+  line-height: 21px;
+  }
+
+  section.content {
+    display: flex;
+    flex-direction: column;
+  }
+  #booki {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .cards-container {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .cards-container article {
+    width: 30%;
+  }
+
+  .name-activity h3 h6{
+    font-size: 10px;
+  }
+  aside{
+    margin-top: 40px;
+  }
+  .popular{
+    width: 40%;
+  }
+  .popular-card {
+  height: 140px;
+  width: 150px;
+  }
+  
+}
