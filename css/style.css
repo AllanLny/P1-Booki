@@ -138,12 +138,11 @@ h3{
   flex-direction: row;
   margin: 20px 5px;
   gap: 30px;
-
 }
 .filtersFond{
   display: flex ;
   align-items: center;
-  padding: 4px 25px;
+  padding: 4px 20px;
   border: 2px solid #D9D9D9;
   border-radius: 25px;
   cursor: pointer;
@@ -156,10 +155,10 @@ h3{
   font-weight: 700;
   font-size: 17px;
   white-space: nowrap;
-  padding: 10px;
 }
 .Filterlogo{
   color: #0065fc;
+  padding-right: 10px;
 }
 
 /* 
@@ -375,20 +374,14 @@ font-size: 18px;
 margin-left: 43px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px){
   .menu{
     padding-right: 20px;
   }
-  .filters-text {
-  font-size: 17px;
-}
-.FilterBar{ 
-  gap: 15px;
-}
-h3{
-  font-size: 18px;
-  line-height: 21px;
+  .FilterBar{
+    gap: 15px;
   }
+
   #Hebergement{
     width: 96.4%;
     margin-left: 13px;
@@ -438,7 +431,6 @@ h3{
   .name-activity{
     font-size: 16px;
   }
-
   footer{
     margin-left: 44px;
     width: 90.1%;
