@@ -14,18 +14,17 @@ a {
 h1,
 h2,
 h3,
+h4
 .show-more,
 .filters,
 #title-section {
   font-family: "Raleway";
-  font-weight: bold;
+  font-weight: 700;
 }
+
 h2,
 .title {
   margin-left: 12px;
-}
-h4 {
-  font-weight: 500;
 }
 
 /* 
@@ -226,7 +225,7 @@ article{
   margin-bottom: 30px;
   background-color: #fff;
 }
-article h3, p {
+article h3, p, h4 {
   font-size: 16px;
   margin-left: 12px;
   line-height: 5px;
@@ -353,7 +352,7 @@ p6{
 .name-activity {
   padding: 0 0px 5px 5px;
 }
-.name-activity h3 {
+.name-activity,h3,h4 {
   font-size: 16px;
   margin-top: 25px;
 }
@@ -440,15 +439,24 @@ margin-left: 43px;
     padding-bottom: 10px;
     margin-top: 10px;
   }
+
   .activity-section{
     margin-left: 11px;
     width: 97%;
+  
   }
   .activity-img{
     height: 240px;
   }
-  .name-activity{
+  .name-activity>h3{
     font-size: 16px;
+    line-height:90%;
+    margin-top: 14%;
+  }
+  .name-activity>h4{
+    font-size: 16px;
+    line-height:90%;
+    margin-top: -12%;
   }
   footer{
     margin-left: 44px;
@@ -499,6 +507,8 @@ margin-left: 0px;
   position: relative;
 }
 .filters {
+  flex-direction: column;
+  display: flex;
   align-items: flex-start;
   margin-left: 1%;
 }
@@ -506,24 +516,42 @@ margin-left: 0px;
   margin-top: 10px;
 }
 .filters-text{
+  text-align: start;
   font-size: 11px;
+  padding-left: 5%;
+  width: 100%;
+  white-space: nowrap;
 }
-.filters-content,
-.filters-search {
-  display: flex;
+
+.filters-content,.filters-search {
+  width: 100%;
   flex-wrap: nowrap;
 }
 section.content {
   display: flex;
   flex-direction: column-reverse;
 }
+p{
+  line-height:100%;
+}
+  
 aside{
   border-radius: 0px;
   margin-left:-3%;
   margin-right:-3%;
   padding-bottom: 0%;
 }
+article img{
+  height: 140px;
+  padding: 1%;
+  border-radius: 25px 25px 0 0;
+}
 #Hebergement{
+  width: 98%;
+  border-radius: 0px;
+  margin-left:-5%;
+  margin-right:-3%;
+  padding-bottom: 0%;
   background-color: #FEFEFE;
 }
 .hebergement-card{
