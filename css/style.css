@@ -14,7 +14,7 @@ a {
 h1,
 h2,
 h3,
-h4
+h4,
 .show-more,
 .filters,
 #title-section {
@@ -46,6 +46,7 @@ header {
   header nav ul li {
   margin: 0px 20px 0px 20px;
 }
+
 /* 
  Nav
 */
@@ -135,11 +136,14 @@ button{
   display: flex;
   align-items: center;
   margin: 20px 5px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 .filters-title {
   margin-right: 2%;
+}
+h5{
+  font-size: 19px;
 }
 .filters-search {
   display: flex;
@@ -167,6 +171,7 @@ button{
 }
 .filters-text {
   padding: 10px;
+  font-size: 17px;
 }
 .filters-search:hover {
   background-color: #DEEBFF;
@@ -226,10 +231,15 @@ article{
   margin-bottom: 30px;
   background-color: #fff;
 }
-article h3, p, h4 {
+article , p, h4 {
   font-size: 16px;
   margin-left: 12px;
   line-height: 5px;
+}
+h3{
+  font-size: 16px;
+  margin-left: 12px;
+  line-height: 15px;
 }
 article img{
   width: 100%;
@@ -248,6 +258,9 @@ article img{
 }
 .fas.fa-star.grey {
   color: #dcdcdc;
+}
+.stars-popular{
+  width: 110%;
 }
 .stars {
   margin: 15px;
@@ -340,6 +353,7 @@ p6{
   flex-direction: column;
 }
 .activity{
+  height: 100%;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 2px 2px #c0c0c0;
@@ -353,11 +367,20 @@ p6{
 .name-activity {
   padding: 0 0px 5px 5px;
 }
-.name-activity,h3,h4 {
+.name-activity {
   font-size: 16px;
   margin-top: 25px;
 }
-
+.name-activity1{
+  font-size: 16px;
+  padding: 0px 0px 0px 5px;
+  padding-right: 4px;
+}
+.name-activity2{
+  font-size: 16px;
+  padding: 0px 0px 0px 5px;
+  padding-right: 28px;
+}
 /* 
  Footer
 */
@@ -387,6 +410,7 @@ font-weight: 700;
 font-size: 18px;
 margin-left: 43px;
 }
+
 /* 
  Tab
 */
@@ -464,6 +488,7 @@ margin-left: 43px;
     width: 90.1%;
   }
 }
+
 /* 
  Mobile
 */
