@@ -204,7 +204,7 @@ i.fas.fa-info{
 main{
   display: flex;
   flex-direction: column;
-  padding: 0 3%;
+  padding:0 3%;
 }
 section.content{
   display: flex;
@@ -560,7 +560,7 @@ margin-left: -3%;
   position: relative;
 }
 .Infobar{
-  margin-left: -4%;
+  margin-left: -3%;
 }
 .filters {
   flex-direction: column;
@@ -578,6 +578,7 @@ margin-left: -3%;
 }
 #title-popular{
   padding-right: 0%;
+  padding-left: 3%;
 }
 .filters-content,.filters-search {
   width: 100%;
@@ -598,8 +599,8 @@ aside{
   width: 100%;
   border-radius: 0px;
   margin: 0%;
-  padding-left: 3.3%;
-  padding-right: 0%;
+  padding-left: 1%;
+  padding-right: 3%;
 }
 article img{
   height: 140px;
@@ -607,7 +608,7 @@ article img{
   border-radius: 25px 25px 0 0;
 }
 #Hebergement{
-  width: 90%;
+  width: 100%;
   border-radius: 0px;
   padding-bottom: 0%;
   padding-left: 2%;
@@ -617,10 +618,12 @@ article img{
 .hebergement-card{
   border: 0.2px solid #D9D9D9;
   border-radius: 25px;
+  width: 330%;
 }
 .cards-container{
   flex-direction: column;
-  width:364%;
+   margin-left: -2%;
+
 }
 .show-more{
   display: none;
@@ -629,11 +632,13 @@ article img{
     flex-direction: column;
   }
   .block-activity{
-    width: 100%;
+    width: 97%;
   }
-
+#title-section{
+  padding-left: 2%;
+}
   .activity-section{
-    padding-left: 5%;
+    padding-left: 03%;
     padding-right: 0%;
   }
   .activity{
