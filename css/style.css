@@ -316,7 +316,7 @@ aside{
   padding-top: 95px;
   padding-left: 15px;
   position: absolute;
-  margin-top: 33px;
+  margin-top: 20px;
   color: #0065fc;
 }
 
@@ -333,10 +333,11 @@ h6{
   font-size: 16px;
   line-height: 19px;
 }
-p6{
+.popular-text{
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  padding-left: 2%;
 }
 /* 
  Activité
@@ -405,12 +406,9 @@ footer li {
 width: 33%;
 padding: 3%;
 }
-h7{
-font-weight: 700;
-font-size: 18px;
-margin-left: 43px;
+.Titre_Footer{
+  padding-left: 30px;
 }
-
 /* 
  Tab
 */
