@@ -368,21 +368,10 @@ h6{
 }
 .name-activity {
   padding: 0 0px 5px 5px;
-}
-.name-activity {
   font-size: 16px;
   margin-top: 25px;
 }
-.name-activity1{
-  font-size: 16px;
-  padding: 0px 0px 0px 5px;
-  padding-right: 4px;
-}
-.name-activity2{
-  font-size: 16px;
-  padding: 0px 0px 0px 5px;
-  padding-right: 28px;
-}
+
 /* 
  Footer
 */
