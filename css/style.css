@@ -409,6 +409,9 @@ padding: 3%;
 .filters-text{
   font-size: 17px;
 }
+.filters-search>i{
+  width: 35px;
+  }
   #Hebergement{
     width: 96.4%;
     margin-left: 13px;
@@ -531,6 +534,7 @@ margin-left: -3%;
 .search-content{
   margin-left: -3%;
 }
+
  input[type="search"]{
   width: 73.6%;
 }
