@@ -484,7 +484,7 @@ padding: 3%;
 /* 
  Mobile
 */
-@media screen and (min-width: 0px) and (max-width: 767px)  {
+@media screen and (min-width: 0px) and (max-width: 768px)  {
   header{
     flex-direction: column;
     margin-left: -3%;
